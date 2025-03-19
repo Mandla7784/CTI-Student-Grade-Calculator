@@ -15,14 +15,13 @@ public class StudentGrade {
                 grades.add(newGrade );
                 if(grades.size() ==  5){
                     var average = sumList(grades) / grades.size();
-                    System.out.println"Average is :" +(average);
+                    System.out.println("Average is :" +average);
                     break;
                 }else {
                     continue;
                 }
             }
         }
-
     /**
      * Method to calculate the sum of the list
      * @param list
