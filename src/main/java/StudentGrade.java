@@ -11,11 +11,25 @@ public class StudentGrade {
             while (gradeCount < 5){
                 System.out.println("Enter grade");
                 var newGrade = scanner.nextInt();
-                 System.out.println(newGrade);
+
+                // adding the new Grade to the grades list
+                grades.add(newGrade );
+                if(grades.size() ==  5){
+
+
+                    break;
+                }else {
+                    continue;
+                }
 
 
             }
 
+
+        }
+        void printAverage(ArrayList<Integer> list){
+
+            var average = list.
 
         }
 
